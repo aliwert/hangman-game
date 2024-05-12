@@ -221,7 +221,13 @@ const initializer = () => {
         drawMan(count);
         //Count==6 because head,body,left arm, right arm,left leg,right leg
         if (count == 6) {
-          resultText.innerHTML = `<h2 class='lose-msg'>You Lose!!</h2><p>The word was <span>${chosenWord}</span></p>`;
+          Swal.fire({
+            position: "top",
+            icon: "error",
+            title: "You lose!! Please click New Game button.",
+            showConfirmButton: false,
+            timer: 3000,
+          });
           blocker();
         }
       }
