@@ -215,12 +215,12 @@ const initializer = () => {
           }
         });
       } else {
-        //lose count
+       
         count += 1;
-        //for drawing man
+      
         drawMan(count);
-        //Count==6 because head,body,left arm, right arm,left leg,right leg
-        if (count == 6) {
+       
+        if (count == 7) {
           Swal.fire({
             position: "top",
             icon: "error",
