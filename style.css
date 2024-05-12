@@ -105,11 +105,11 @@ canvas {
 }
 #new-game-button {
   font-size: 1.25em;
-  padding: 0.5em 1em;
-  background-color: hsl(46, 90%, 57%);
-  border: 3px solid hsl(0, 0%, 0%);
-  color: hsl(0, 0%, 0%);
-  border-radius: 0.2em;
+  padding: 0.4em 1em;
+  background-color: hsl(203, 90%, 57%);
+  border: 3px solid hsl(214, 49%, 42%);
+  color: #fff;
+  border-radius: 2em;
 }
 .win-msg {
   color: hsl(152, 66%, 53%);
