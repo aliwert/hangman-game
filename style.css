@@ -13,9 +13,8 @@ body {
 }
 .container {
   font-size: 16px;
-  background-color: #ffffff;
+  background-color: hsl(46, 90%, 57%);
   width: 90vw;
-  height: 90vh;
   max-width: 34em;
   position: absolute;
   transform: translate(-50%, -50%);
@@ -62,7 +61,7 @@ body {
   height: 2.4em;
   width: 2.4em;
   border-radius: 0.3em;
-  background-color: hsl(0, 0%, 100%);
+  background-color: hsl(0, 86%, 36%);
 }
 .new-game-popup {
   background-color: hsl(0, 0%, 100%);
