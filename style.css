@@ -107,12 +107,6 @@ canvas {
   padding: 0.4em 1em;
   background-color: hsl(203, 90%, 57%);
   border: 3px solid hsl(214, 49%, 42%);
-  color: #fff;
+  color: hsl(0, 0%, 100%);
   border-radius: 2em;
-}
-.win-msg {
-  color: hsl(152, 66%, 53%);
-}
-.lose-msg {
-  color: hsl(360, 99%, 66%);
 }
